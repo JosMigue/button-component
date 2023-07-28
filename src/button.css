@@ -1,0 +1,186 @@
+:root {
+    --primary: #2962FF;
+    --primary-hover: #0039CB;
+    --secondary: #455A64;
+    --secondary-hover: #1C313A;
+    --danger: #D32F2F;
+    --danger-hover: #9A0007;
+    --default: #E0E0E0;
+    --default-hover: #AEAEAE;
+    --outline-default: #3D5AFE;
+    --outline-default-hover: #EAEFFF;
+    --text-primary-hover:#EAEFFF;
+    --text-danger-hover:#ffeaef;
+    --text-default-hover:#d2d7e5;
+    --text-default-gray:#535353;
+  }
+  
+
+button {
+    border-radius: 8px;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+}
+
+.cursor-pointer{
+    cursor: pointer;
+}
+
+.button-size-sm{
+    padding: 0.6em 1.2em;
+}
+.button-size-md{
+    padding: 0.8em 1.4em;
+}
+.button-size-lg{
+    padding: 1em 1.6em;
+}
+
+.disabled-button{
+    background-color: #E0E0E0;
+    border-color:transparent;
+    color: #A6A6A6;
+    cursor:not-allowed;
+}
+.disabled-text-button{
+    background-color: transparent;
+    border-color:transparent;
+    color: #A6A6A6;
+    cursor:not-allowed;
+}
+.disable-box-shadow{
+    box-shadow: none;
+}
+
+/* COLORS  */
+.default-color-button{
+    background-color: var(--default);
+    border: 2px solid;
+    border-color: var(--default);
+    color:var(--text-default-gray);
+}
+.primary-color-button{
+    background-color: var(--primary);
+    border: 2px solid;
+    border-color: var(--primary);
+}
+.secondary-color-button{
+    background-color: var(--secondary);
+    border: 2px solid;
+    border-color: var(--secondary);
+}
+.danger-color-button{
+    background-color: var(--danger);
+    border: 2px solid;
+    border-color: var(--danger);
+}
+.default-color-button:hover{
+    background-color: var(--default-hover);
+    border: 2px solid;
+    border-color: var(--default-hover);
+    color: black;
+}
+.primary-color-button:hover{
+    background-color: var(--primary-hover);
+    border: 2px solid;
+    border-color: var(--primary-hover);
+}
+.secondary-color-button:hover{
+    background-color: var(--secondary-hover);
+    border: 2px solid;
+    border-color: var(--secondary-hover);
+}
+.danger-color-button:hover{
+    background-color: var(--danger-hover);
+    border: 2px solid;
+    border-color: var(--danger-hover);
+}
+.danger-color-button:hover{
+    background-color: var(--danger-hover);
+    border: 2px solid;
+    border-color: var(--danger-hover);
+}
+
+/* OUTLINE VARIANTS */
+
+.default-outline-button{
+    background-color: white;
+    border: 2px solid;
+    border-color: var(--outline-default);
+    color: var(--outline-default);
+}
+.primary-outline-button{
+    background-color: white;
+    border: 2px solid;
+    border-color: var(--primary);
+    color: var(--primary);
+}
+.secondary-outline-button{
+    background-color: white;
+    border: 2px solid;
+    border-color: var(--secondary);
+    color: var(--secondary);
+}
+.danger-outline-button{
+    background-color: white;
+    border: 2px solid;
+    border-color: var(--danger);
+    color: var(--danger);
+}
+.default-outline-button:hover{
+    background-color: var(--outline-default-hover);
+    border-color: var(--outline-default);
+    color: var(--outline-default);
+}
+.primary-outline-button:hover{
+    background-color: var(--primary-hover);
+    border-color: var(--primary-hover);
+    color: white;
+}
+.secondary-outline-button:hover{
+    background-color: var(--secondary-hover);
+    border-color: var(--secondary-hover);
+    color: white;
+}
+.danger-outline-button:hover{
+    background-color: var(--danger-hover);
+    border-color: var(--danger-hover);
+    color: white;
+}
+/* TEXT VARIANTS */
+
+.default-text-button{
+    background-color: transparent;
+    border: 1px solid transparent;
+    color: var(--outline-default);
+}
+.primary-text-button{
+    background-color: transparent;
+    border: transparent;
+    color: var(--primary);
+}
+.secondary-text-button{
+    background-color: transparent;
+    border: transparent;
+    color: var(--secondary);
+}
+.danger-text-button{
+    background-color: transparent;
+    border: transparent;
+    color: var(--danger);
+}
+.default-text-button:hover{
+    background-color: var(--outline-default-hover);
+}
+.primary-text-button:hover{
+    background-color: var(--text-primary-hover);
+}
+.secondary-text-button:hover{
+    background-color: var(--text-default-hover);
+}
+.danger-text-button:hover{
+    background-color: var(--text-danger-hover);
+}
+
+  
